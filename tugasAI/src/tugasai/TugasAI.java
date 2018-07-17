@@ -175,7 +175,7 @@ public class TugasAI {
         thipo = thipo/hipo;
         bhiper = bhiper/hiper;
         bhipo = bhipo/hipo;
-        uhiper = uhiper/uhiper;
+        uhiper = uhiper/hiper;
         uhipo = uhipo/hipo;
         System.out.println("Jenis Kelamin "+jenisk+" dan hipertensi ="+jkhiper);
         System.out.println("Jenis Kelamin "+jenisk+" dan hipotensi ="+jkhipo);
