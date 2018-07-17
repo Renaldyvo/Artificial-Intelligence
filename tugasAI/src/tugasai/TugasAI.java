@@ -243,7 +243,7 @@ public class TugasAI {
         int loop = 0;
         String in1 = "", in2 = "", in3 = "", in4 = "", in5 = "";
         while (loop == 0) {
-            System.out.println("Masukkan Jenis Kelamin(P/W)");
+            System.out.print("Masukkan Jenis Kelamin(P/W) : ");
             String x = input.next();
             if (x.toUpperCase().equals("P") || x.toUpperCase().equals("W")) {
                 in1 = x.toUpperCase();
@@ -254,7 +254,7 @@ public class TugasAI {
         }
         while (loop == 0) {
 
-            System.out.println("Masukkan [Tinggi]/[Pendek]");
+            System.out.print("Masukkan [Tinggi]/[Pendek] : ");
             String x = input.next();
             if (x.toUpperCase().equals("TINGGI") || x.toUpperCase().equals("PENDEK")) {
                 in2 = x.toUpperCase();
@@ -264,7 +264,7 @@ public class TugasAI {
             }
         }
         while (loop == 0) {
-            System.out.println("Masukkan [Berat]/[Ringan]");
+            System.out.print("Masukkan [Berat]/[Ringan] : ");
             String x = input.next();
             if (x.toUpperCase().equals("BERAT") || x.toUpperCase().equals("RINGAN")) {
                 in3 = x.toUpperCase();
@@ -274,7 +274,7 @@ public class TugasAI {
             }
         }
         while (loop == 0) {
-            System.out.println("Masukkan [Tua]/[Muda]");
+            System.out.print("Masukkan [Tua]/[Muda] : ");
             String x = input.next();
             if (x.toUpperCase().equals("TUA") || x.toUpperCase().equals("MUDA")) {
                 in4 = x.toUpperCase();
