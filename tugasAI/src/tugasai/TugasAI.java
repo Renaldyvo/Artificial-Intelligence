@@ -249,38 +249,38 @@ public class TugasAI {
                 in1 = x.toUpperCase();
                 break;
             } else {
-                System.out.println("Masukkan anda salah!!");
+                System.out.println("Yang anda Masukkan salah!!");
             }
         }
         while (loop == 0) {
 
-            System.out.println("Masukkan Tinggi/Pendek");
+            System.out.println("Masukkan [Tinggi]/[Pendek]");
             String x = input.next();
             if (x.toUpperCase().equals("TINGGI") || x.toUpperCase().equals("PENDEK")) {
                 in2 = x.toUpperCase();
                 break;
             } else {
-                System.out.println("Masukkan anda salah!!");
+                System.out.println("Yang Anda Masukkan salah!!");
             }
         }
         while (loop == 0) {
-            System.out.println("Masukkan Berat/Ringan");
+            System.out.println("Masukkan [Berat]/[Ringan]");
             String x = input.next();
             if (x.toUpperCase().equals("BERAT") || x.toUpperCase().equals("RINGAN")) {
                 in3 = x.toUpperCase();
                 break;
             } else {
-                System.out.println("Masukkan anda salah!!");
+                System.out.println("Yang Anda Masukkan Salah!!");
             }
         }
         while (loop == 0) {
-            System.out.println("Masukkan Tua/Muda");
+            System.out.println("Masukkan [Tua]/[Muda]");
             String x = input.next();
             if (x.toUpperCase().equals("TUA") || x.toUpperCase().equals("MUDA")) {
                 in4 = x.toUpperCase();
                 break;
             } else {
-                System.out.println("Masukkan anda salah!!");
+                System.out.println("Yang Anda Masukkan Salah!!");
             }
         }
         Pasien masuk = new Pasien(in1, in2, in3, in4, in5);
